@@ -13,6 +13,7 @@
 		A2DB139A2983FC0E000A4D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DB13982983FC0E000A4D18 /* Main.storyboard */; };
 		A2DB139C2983FC12000A4D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DB139B2983FC12000A4D18 /* Assets.xcassets */; };
 		A2DB139F2983FC12000A4D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DB139D2983FC12000A4D18 /* LaunchScreen.storyboard */; };
+		A2DB13A72983FDB0000A4D18 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2DB13A62983FDB0000A4D18 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A2DB139B2983FC12000A4D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2DB139E2983FC12000A4D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2DB13A02983FC12000A4D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DB13A62983FDB0000A4D18 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A2DB13962983FC0E000A4D18 /* ViewController.swift */,
 				A2DB13982983FC0E000A4D18 /* Main.storyboard */,
 				A2DB139B2983FC12000A4D18 /* Assets.xcassets */,
+				A2DB13A62983FDB0000A4D18 /* alarm_sound.mp3 */,
 				A2DB139D2983FC12000A4D18 /* LaunchScreen.storyboard */,
 				A2DB13A02983FC12000A4D18 /* Info.plist */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				A2DB139F2983FC12000A4D18 /* LaunchScreen.storyboard in Resources */,
 				A2DB139C2983FC12000A4D18 /* Assets.xcassets in Resources */,
+				A2DB13A72983FDB0000A4D18 /* alarm_sound.mp3 in Resources */,
 				A2DB139A2983FC0E000A4D18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
