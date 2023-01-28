@@ -21,7 +21,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XxK-vl-Ohh" userLabel="Title View">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="246.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you like your eggs?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="yTM-5B-z6c" userLabel="Title Label">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you like your eggs?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="yTM-5B-z6c" userLabel="Title Label">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="246.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -133,6 +133,9 @@
                             <constraint firstItem="PRK-7y-DxW" firstAttribute="top" secondItem="SmP-qq-16f" secondAttribute="topMargin" id="h2K-3f-7y8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="yTM-5B-z6c" id="cac-Qt-SPs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="46a-2k-x79" sceneMemberID="firstResponder"/>
             </objects>
