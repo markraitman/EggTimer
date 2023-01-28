@@ -10,8 +10,8 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-    //MARK: Constants
-    let eggTimes = ["Soft" : 3, "Medium" : 450, "Hard" : 720]
+    //MARK: Properties
+    let eggTimes = ["Soft" : 300, "Medium" : 450, "Hard" : 720]
     var totalTime = 0
     var secondsPassed = 0
     
