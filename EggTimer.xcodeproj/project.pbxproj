@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A234FB552985AD390079AD5B /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = A234FB542985AD390079AD5B /* G.wav */; };
 		A2DB13932983FC0E000A4D18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB13922983FC0E000A4D18 /* AppDelegate.swift */; };
 		A2DB13952983FC0E000A4D18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB13942983FC0E000A4D18 /* SceneDelegate.swift */; };
 		A2DB13972983FC0E000A4D18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB13962983FC0E000A4D18 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A234FB542985AD390079AD5B /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
 		A2DB138F2983FC0E000A4D18 /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DB13922983FC0E000A4D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2DB13942983FC0E000A4D18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				A2DB13982983FC0E000A4D18 /* Main.storyboard */,
 				A2DB139B2983FC12000A4D18 /* Assets.xcassets */,
 				A2DB13A62983FDB0000A4D18 /* alarm_sound.mp3 */,
+				A234FB542985AD390079AD5B /* G.wav */,
 				A2DB139D2983FC12000A4D18 /* LaunchScreen.storyboard */,
 				A2DB13A02983FC12000A4D18 /* Info.plist */,
 			);
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DB139F2983FC12000A4D18 /* LaunchScreen.storyboard in Resources */,
+				A234FB552985AD390079AD5B /* G.wav in Resources */,
 				A2DB139C2983FC12000A4D18 /* Assets.xcassets in Resources */,
 				A2DB13A72983FDB0000A4D18 /* alarm_sound.mp3 in Resources */,
 				A2DB139A2983FC0E000A4D18 /* Main.storyboard in Resources */,

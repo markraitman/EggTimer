@@ -11,7 +11,7 @@ import AVFoundation
 class ViewController: UIViewController {
     
     //MARK: Constants
-    let eggTimes = ["Soft" : 300, "Medium" : 450, "Hard" : 720]
+    let eggTimes = ["Soft" : 3, "Medium" : 450, "Hard" : 720]
     var totalTime = 0
     var secondsPassed = 0
     
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         
         progressBar.progress = 0.0
         secondsPassed = 0
-        titleLabel.text = "Chosen \(hardness). Wait about \(totalTime / 60) min, please(="
+        titleLabel.text = "\(hardness) type. Wait about \(totalTime / 60) min, please(="
         
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
     }
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
             timer.invalidate()
             titleLabel.text = "Done!"
             
-            let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3")
+            let url = Bundle.main.url(forResource: "G", withExtension: "wav")
             player = try! AVAudioPlayer(contentsOf: url!)
             player.play()
         }
