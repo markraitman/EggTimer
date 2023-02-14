@@ -10,7 +10,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-    //MARK: Properties
+    //MARK: - Properties
     let eggTimes = ["Soft" : 300, "Medium" : 450, "Hard" : 720]
     var totalTime = 0
     var secondsPassed = 0
@@ -23,12 +23,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
     
-    //MARK: Lifecycle
+    //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    //MARK: Actions
+    //MARK: - Actions
     @IBAction func hardnessSelected(_ sender: UIButton) {
         
         timer.invalidate()
